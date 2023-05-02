@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#09248C"
+    tools:context=".activity_info">
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:text="Back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_marginTop="125dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/megatron" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Megatron"
+        android:textColor="#888686"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textview6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text='"No! I want two!"'
+        android:textColor="#888686"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="350sp"
+        android:layout_height="300sp"
+        android:layout_marginTop="150dp"
+        android:text="Megatron grew up to become Lord High Protector of Cybertron while his adopted brother, Optimus became the head scientist of the Cybertronian scientific division. Eventually, Megatron came across The Fallen, who corrupted him and convinced him that the AllSpark should be his. Megatron and his followers attempted to seize it, but were stopped by Optimus and his Autobots, and the Cybertronian War began.  At the end of the war, Megatron captured and tortured Bumblebee, severely damaging his Spark However, before Megatron could kill Bumblebee, the Autobots launched the AllSpark into deep space. Megatron followed the AllSpark across space in his jet mode. And In 1883, arrived on Earth where was present during the eruption of Krakatoa, but his presence was covered up by the Order of the Witwiccans. At some point after this, he found his way to the Arctic, where he would crash and become frozen beneath the ice. "
+        android:textColor="#888686"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

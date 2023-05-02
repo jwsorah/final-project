@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinalProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity_m1_brawl"
+            android:exported="false" />
+        <activity
+            android:name=".activity_m1_scorponok"
+            android:exported="false" />
+        <activity
+            android:name=".activity_m1_blackout"
+            android:exported="false" />
+        <activity
+            android:name=".activity_m1_bonecrusher"
+            android:exported="false" />
+        <activity
+            android:name=".activity_m1_frenzy"
+            android:exported="false" />
+        <activity
+            android:name=".activity_m1_barricade"
+            android:exported="false" />
+        <activity
+            android:name=".activity_m1_starscream"
+            android:exported="false" />
+        <activity
+            android:name=".activity_m1_megatron"
+            android:exported="false" />
+        <activity
+            android:name=".activity_m1_ratchet"
+            android:exported="false" />
+        <activity
+            android:name=".activity_m1_ironhide"
+            android:exported="false" />
+        <activity
+            android:name=".activity_m1_jazz"
+            android:exported="false" />
+        <activity
+            android:name=".activity_m1_bumblebee"
+            android:exported="false" />
+        <activity
+            android:name=".activity_m1_optimus"
+            android:exported="false" />
+        <activity
+            android:name=".activity_m1_decepticons"
+            android:exported="false" />
+        <activity
+            android:name=".activity_m1_autobots"
+            android:exported="false" />
+        <activity
+            android:name=".activity_m1_side"
+            android:exported="false" />
+        <activity
+            android:name=".activity_info"
+            android:exported="false" />
+        <activity
+            android:name=".activity_database"
+            android:exported="false" />
+        <activity
+            android:name=".activity_about"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
